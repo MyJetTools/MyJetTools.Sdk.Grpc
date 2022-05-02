@@ -7,9 +7,9 @@ namespace MyJetTools.Sdk.Grpc;
 
 public class ExceptionInterceptor : Interceptor
 {
-    private readonly ILogger _logger;
+    private readonly ILogger<ExceptionInterceptor> _logger;
 
-    public ExceptionInterceptor(ILogger logger)
+    public ExceptionInterceptor(ILogger<ExceptionInterceptor> logger)
     {
         _logger = logger;
     }
