@@ -8,6 +8,6 @@
     
     <ItemGroup>
         <PackageReference Include="Grpc.AspNetCore" Version="2.45.0" />
-        <PackageReference Include="MyJetTools.Grpc.Sdk.GrpcMetrics" Version="1.0.1" />
+        <PackageReference Include="MyJetTools.Grpc.Sdk.GrpcMetrics" Version="1.0.2" />
     </ItemGroup>
 </Project>
